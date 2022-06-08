@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gameshope.vn</title>
+    <link rel="stylesheet" href="main css/eldenring_detail.css">
+    <link rel="stylesheet" href="main css/gameps style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body id="b-color">
+<!------Phần header------->
+<!------Phần header------->
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="gameshop.html"><img src="img/logo.jpg" width="260px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <form class="d-flex">
+            <input class="form-control mt-3 mb-3 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#"><li><img src="img/cart.jpg" width="55px" height="46px"></li></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"><li><img src="img/account.jpg" width="55px" height="46px"></li></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.facebook.com/nguyentiendat2k33" target="_blank"><li><img src="img/facebook.png"  width="55px" height="46px"></li></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/tTin22692284" target="_blank"><li><img src="img/twitter.png"  width="55px" height="46px"></li></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.youtube.com/channel/UCXHzgkDMUlP8-kqGUc4i2Cw" target="_blank"><li><img src="img/youtube logo.png"  width="55px" height="46px"></li></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!------ Hết Phần header------->
+
+<!-------Phần content-------->
+<content>
+  <div class="container">
+    <div class="menubar">
+      <ul>
+        <li><a href="gameshop.html"><button>HOME</button></a></li>
+        <li><a href="gameps4.html"><button>GAME PS4</button></a></li>
+        <li><a href="gameps5.html"><button>GAME PS5</button></a></li>
+        <li><a href="gamepc.html"><button>GAME PC</button></a></li>
+      </ul>
+    </div>
+  
+    <div class="ps4game_title">
+      <div class="ps4game-tittle mt-3">
+          <p>GAME PC</p>
+      </div>
+    </div>
+<div class="container mt-3 bg-light">    
+      
+      <div class="row align-item">
+        <div class="col-lg-5 col-xl-5 col-12 col-sm-12 mt-3 list">
+          <img src="img/eldenring_bg.jpg" class="img-fluid img-detail mx-auto d-block mb-3 mt-1" alt="Responsive image">
+        </div>
+        <div class="col-lg-5 col-xl-5 col-12 col-sm-12 mt-3">  
+            <h4>ELDEN RING</h4>
+            <b><h4 >Giá: 757.000đ</h4></b>
+            <div class="row btn-add">
+            <div class="wrapper col-4">
+              <span class="minus">-</span>
+              <span class="num">01</span>
+              <span class="plus">+</span>
+            </div>
+
+            <!------Chức năng thêm bớt số lượng-------->
+           <script>
+             const plus = document.querySelector(".plus"),
+              minus = document.querySelector(".minus"),
+              num = document.querySelector(".num");
+              let a = 1;
+              plus.addEventListener("click", ()=>{
+                a++;
+                a = (a < 10) ? "0" + a : a;
+                num.innerText = a;
+              });
+          
+              minus.addEventListener("click", ()=>{
+                if(a > 1){
+                  a--;
+                  a = (a < 10) ? "0" + a : a;
+                  num.innerText = a;
+                }
+              }); 
+            </script>
+            <!----Hết chức năng thêm bớt số lượng---->
+            
+            <div class="col-8">
+              <a href="cart.html"><button type="button" class="btn btn-primary"><h4>Thêm vào giỏ hàng</h4></button></a>
+            </div>
+          </div>            
+        </div>
+    </div>
+      <div class="detail mt-3">
+        <button type="button" class="btn btn-lg btn-primary" disabled>MÔ TẢ</button>
+        <br><br>
+        <h5>Giới thiệu về Elden ring</h5>
+        <h6>Elden Ring là bom tấn nhập vai hành động sắp ra mắt được phát triển bởi FromSoftware 
+          và do Bandai Namco Entertainment phát hành. Trò chơi là sự hợp tác giữa đạo diễn Hidetaka Miyazaki
+          của Dark Souls và tiểu thuyết gia George RR Martin - “cha đẻ” của Trò chơi vương quyền.
+          <br><br><br><b>Cốt truyện game Elden Ring</b><br><br>
+          Elden Ring lấy bối cảnh vương quốc giả tưởng Lands Between, thời điểm sau khi chiếc nhẫn Elden bị
+          phá hủy và các mảnh vỡ của nó, được gọi là Great Rune, bị phân tán khắp nơi. Từng được ban phước bởi
+          chiếc nhẫn và Erdtree tượng trưng cho sự hiện diện của nó, vương quốc Lands Between giờ đây được cai
+          trị bởi các Á thần là con của Nữ hoàng Marika, mỗi người sở hữu một mảnh vỡ của chiếc nhẫn có thể cung
+          cấp sức mạnh cũng như hủy hoại họ. Với tư cách là một Tarnished - người lưu vong từ vùng đất Lands Between, bạn sẽ phải đi khắp vương quốc để tìm kiếm các Great Rune, khôi phục chiếc nhẫn Elden và trở thành Elden Lord.</h6>
+          <img src="img/elden-ring-2.jpg" class="img-fluid mx-auto d-block mb-3 mt-3" alt="Responsive image">
+          <p class="text-center mb-5">Nhiệm vụ của bạn là tìm cách khôi phục nhẫn Elden và trở thành Elden Lord.</p>
+        
+          <b>Tính năng chính của game Elden Ring</b><br><br>
+          <h6>Khám phá Lands Between - một thế giới giả tưởng mới được tạo ra bởi Hidetaka Miyazaki, tác giả của loạt
+          game bom tấn Dark Souls và George RR Martin, “cha đẻ” của loạt tiểu thuyết giả tưởng bán chạy A Game of Thrones.
+          Hãy làm sáng tỏ bí ẩn về sức mạnh của Elden Ring, gặp gỡ kẻ thù có xuất thân bí ẩn, quái vật đáng sợ và những nhân
+          vật có động cơ riêng để phát triển cuộc hành trình của bạn.</h6>
+          <img src="img/elden-ring-3.jpg" class="img-fluid mx-auto d-block mb-3 mt-3" alt="Responsive image">
+          <p class="text-center mb-5">Đối mặt với nhiều kẻ thù hung bạo trên hành trình của bạn.</p>
+
+          <b>Lối chơi hoành tráng:</b><br><br>
+          <h6>Tạo ra nhân vật của riêng bạn trong game nhập vai hành động hoành tráng Elden Ring, xác định lối chơi bằng
+          cách thử nghiệm nhiều loại vũ khí, phép thuật và kỹ năng được tìm thấy trên khắp thế giới, sau đó lao vào trận
+          chiến, tiêu diệt từng kẻ thù bằng sức mạnh, hoặc kêu gọi đồng minh hỗ trợ.</h6><br><br>
+
+          <b>Cấu hình tối thiểu:</b><br>
+          <ul>
+            <li><b>Windows 10 64-bit (phiên bản 1909 trở lên)</b></li>
+            <li><b>INTEL CORE I5-8400 or AMD RYZEN 3 3300X</b></li>
+            <li><b>Bộ nhớ: 12G RAM</b></li>
+            <li><b>NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB</b></li>
+            <li><b>Lưu trữ: 60G chỗ trống khả dụng</b></li>
+          </ul>
+          <br>
+    </div>
+</div>
+  </div>
+</content>
+</div>
+
+<!-------Hết phần content-------->    
+
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Gameshop</h5>
+        <p>
+          Gameshop sinh ra với mong muốn cung cấp cho game thủ Việt Nam những 
+            game bản quyền chất lượng với một phương thức thanh toán đơn giản nhất,
+            giá tốt nhất cùng với đó là dịch vụ chăm sóc khách hàng tuyệt vời.
+        </p>
+      </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <p>
+            <ul>
+                <li>Liên hệ: Gameshop.vn</li>
+                <li>Số điện thoại: 0913514625</li>
+                <li>Facebook: <a href="http://www.facebook.com/nguyentiendat2k33">http://www.facebook.com/nguyentiendat2k33</a></li>
+            </ul>
+        </p>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
